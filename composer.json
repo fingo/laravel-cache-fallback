@@ -1,0 +1,50 @@
+{
+  "name": "fingo/laravel-cache-fallback",
+  "type": "library",
+  "description": "Provides fallback mechanisms for cache handlers",
+  "keywords": [
+    "laravel",
+    "cache",
+    "fallback",
+    "cache fallback",
+    "fingo/laravel-cache-fallback",
+    "fingo",
+    "laravel-cache-fallback"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/fingo/laravel-cache-fallback",
+  "authors": [
+    {
+      "name": "Hubert Jedrzejek",
+      "email": "hubert.jedrzejek@fingo.pl",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "~5.5|~7.0",
+    "illuminate/cache": "~5.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.2.9",
+    "orchestra/testbench": "^3.2.2",
+    "mockery/mockery": "^0.9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fingo\\LaravelCacheFallback\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fingo\\LaravelCacheFallback\\Test\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit --bootstrap=vendor/autoload.php tests"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
