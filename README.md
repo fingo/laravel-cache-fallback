@@ -4,6 +4,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![Code Quality][cq-badge]][cq-link]
 
 Package for falling back cache drivers if current is not available.
 
@@ -44,7 +45,9 @@ The Apache license Version 2.0. Please see [License File](LICENSE.md) for more i
 [ico-license]: https://img.shields.io/badge/license-Apache%202.0-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/fingo/laravel-cache-fallback/master.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/fingo/laravel-cache-fallback.svg?style=flat-square
+[cq-badge]: https://insight.sensiolabs.com/projects/fe703ae4-3675-46d7-be31-13da23d84ceb/mini.png
 
 [link-packagist]: https://packagist.org/packages/fingo/laravel-cache-fallback
 [link-travis]: https://travis-ci.org/fingo/laravel-cache-fallback
 [link-downloads]: https://packagist.org/packages/fingo/laravel-cache-fallback
+[cq-link]: https://insight.sensiolabs.com/projects/fe703ae4-3675-46d7-be31-13da23d84ceb
