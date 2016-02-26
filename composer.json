@@ -7,7 +7,6 @@
     "cache",
     "fallback",
     "cache fallback",
-    "fingo/laravel-cache-fallback",
     "fingo",
     "laravel-cache-fallback"
   ],
