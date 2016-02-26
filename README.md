@@ -10,20 +10,16 @@ Package for falling back cache drivers if current is not available.
 Be advised that if the last driver fails, normal laravel Error is thrown
 
 ## Usage
-Comment out Illuminate Cache driver in config/app.php
-``` php
-//Illuminate\Cache\CacheServiceProvider::class,
-```
 Add fallback provider to config/app.php
 ``` php
 Fingo\LaravelCacheFallback\CacheFallbackServiceProvider::class,
 ```
 
-Default fallback order is: redis, memcache, database, cookie, file, array
+Default fallback order is: redis, memcached, database, cookie, file, array
 
 If needed to change fallback order, publish vendors
  ``` bash
- php artisan vendor:publish
+ php artisan vendor:publish --provider="Fingo\LaravelCacheFallback\CacheFallbackServiceProvider"
  ```
 
 ## Change log
