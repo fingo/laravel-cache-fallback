@@ -40,10 +40,5 @@
   },
   "scripts": {
     "test": "phpunit --bootstrap=vendor/autoload.php tests"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0-dev"
-    }
   }
 }
