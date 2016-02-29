@@ -37,6 +37,11 @@ $ composer test
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
+## Credits
+
+ - [Hubert Jędrzejek][link-author]
+ - [All Contributors][link-contributors]
+
 ## License
 
 The Apache license Version 2.0. Please see [License File](LICENSE.md) for more information.
@@ -51,3 +56,6 @@ The Apache license Version 2.0. Please see [License File](LICENSE.md) for more i
 [link-travis]: https://travis-ci.org/fingo/laravel-cache-fallback
 [link-downloads]: https://packagist.org/packages/fingo/laravel-cache-fallback
 [cq-link]: https://insight.sensiolabs.com/projects/fe703ae4-3675-46d7-be31-13da23d84ceb
+
+[link-author]: https://github.com/HubertJedrzejek
+[link-contributors]: ../../contributors
