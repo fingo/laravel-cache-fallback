@@ -55,7 +55,7 @@ class CacheFallback extends CacheManager
     protected function createRedisDriver(array $config)
     {
         $redisDriver = parent::createRedisDriver($config);
-        $redisDriver->connection()->ping();
+        $redisDriver->get('test');
         return $redisDriver;
     }
 
